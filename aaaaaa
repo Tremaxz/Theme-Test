@@ -25,21 +25,22 @@ library.theme = {
     background = "",
     tilesize = 90,
     backgroundcolor = Color3.fromRGB(20, 20, 20),
-    tabstextcolor = Color3.fromRGB(240, 240, 240),
-    bordercolor = Color3.fromRGB(60, 60, 60),
-    accentcolor = Color3.fromRGB(28, 56, 139),
-    accentcolor2 = Color3.fromRGB(16, 31, 78),
-    outlinecolor = Color3.fromRGB(60, 60, 60),
-    outlinecolor2 = Color3.fromRGB(0, 0, 0),
-    sectorcolor = Color3.fromRGB(30, 30, 30),
-    toptextcolor = Color3.fromRGB(255, 255, 255),
-    topheight = 48,
-    topcolor = Color3.fromRGB(30, 30, 30),
-    topcolor2 = Color3.fromRGB(30, 30, 30),
-    buttoncolor = Color3.fromRGB(49, 49, 49),
-    buttoncolor2 = Color3.fromRGB(39, 39, 39),
-    itemscolor = Color3.fromRGB(200, 200, 200),
-    itemscolor2 = Color3.fromRGB(210, 210, 210)
+tabstextcolor = Color3.fromRGB(255, 211, 0),     -- Amarelo para o texto das abas
+bordercolor = Color3.fromRGB(20, 20, 20),        -- Quase preto para bordas
+accentcolor = Color3.fromRGB(255, 211, 0),       -- Amarelo para destaques
+accentcolor2 = Color3.fromRGB(200, 175, 0),      -- Tom um pouco mais escuro de amarelo
+outlinecolor = Color3.fromRGB(10, 10, 10),       -- Borda escura
+outlinecolor2 = Color3.fromRGB(0, 0, 0),         -- Preto puro
+sectorcolor = Color3.fromRGB(25, 25, 25),        -- Fundo de seções quase preto
+toptextcolor = Color3.fromRGB(255, 211, 0),      -- Amarelo no topo
+topheight = 48,
+topcolor = Color3.fromRGB(15, 15, 15),           -- Fundo do topo preto
+topcolor2 = Color3.fromRGB(20, 20, 20),          -- Segundo tom de fundo
+buttoncolor = Color3.fromRGB(35, 35, 35),        -- Fundo de botão escuro
+buttoncolor2 = Color3.fromRGB(45, 45, 45),       -- Segundo tom de botão
+itemscolor = Color3.fromRGB(255, 211, 0),        -- Itens amarelos
+itemscolor2 = Color3.fromRGB(240, 200, 0)        -- Tonalidade secundária para itens
+
 }
 
 function library:CreateWatermark(name, position)
